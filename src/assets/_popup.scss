@@ -1,0 +1,116 @@
+.popup__main{
+    align-content: left;
+    flex-direction: column;
+    display: flex;
+    position: fixed;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 130px;
+    height: 680px;
+    width: 500px;
+    z-index:1;
+    color: black;
+    background-color: #fff;
+    overflow: hidden;
+}
+.popup__ctaClose{
+    height: 22px;
+    width: 22px;
+    margin-left: 97%;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+.popup__ctaHeading{
+    font-family: essonnes-display, serif;
+    font-weight: bold;
+    font-size: 66px;
+    color: #611818;
+    border-width: 0 0 3px 0;
+    
+}
+.popup__ctaHeadingUnder{
+    font-family: Arial, Helvetica, sans-serif, serif;
+    width: 275px;
+    margin-top: 5px;
+}
+.popup__ctaText{
+    height: 280px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+
+}
+.popup__ctaButton{
+    height: 55px;
+    width: 235px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    border: solid #979797 1px;
+    background-image: linear-gradient(to right, #611818, #a36754);
+    cursor:pointer;
+}
+@media screen and (max-width: 768px) {
+    .popup__ctaText{
+        height: 240px;
+        margin-bottom: 10px;
+        overflow: scroll;
+    }
+    .popup__main{
+        height: 560px;
+         padding: 20px 40px;
+         margin-top: 100px;
+         margin-left: 18vw;
+         width: 92%;
+         z-index:1;
+    
+     }
+}
+@media screen and (max-width: 575px) {
+    .popup__main{
+        height: 560px;
+         padding: 20px 40px;
+         margin-top: 60px;
+         margin-left: 71vw;
+         width: 92%;
+         z-index:1;
+    
+     }
+    .popup__ctaButton{
+        height: 55px;
+        width: 235px;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 18px;
+        border: solid #979797 1px;
+        background-image: linear-gradient(to right, #611818, #a36754);
+        cursor:pointer;
+    }
+}
+@media screen and (max-width: 411px) {
+    .popup__main{
+       
+        padding: 20px 40px;
+        margin-top: 80px;
+        margin-left: 71vw;
+        width: 92%;
+        z-index:1;
+   
+    }
+    .popup__ctaText{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .popup__main{
+       height: 560px;
+        padding: 20px 40px;
+        margin-top: 60px;
+        margin-left: 71vw;
+        width: 92%;
+        z-index:1;
+   
+    }
+   
+}

@@ -1,7 +1,7 @@
 <style >
 @import '@/assets/_animations.scss';
 @import '@/assets/_frontpage.scss';
-/*@import 'animate.css';*/
+
 
 </style>
 
@@ -58,7 +58,6 @@ export default {
         mainheading.classList.add("animate__bounceIn");
         setTimeout(function() {
            mainheading.classList.remove("animate__bounceIn");
-       
         }, introdone)
       },
 

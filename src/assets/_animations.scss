@@ -1,4 +1,4 @@
-@import 'animate.css';
+
 .activate{
     border: solid rgba(255, 255, 255, 0.175) 4px;
     box-shadow: 5px 2px 8px rgba(132, 132, 154, 0.2) inset, 10px 3px 20px rgba(0, 0, 0, 0.157) ;
@@ -162,7 +162,7 @@
   }
 
 
-//bounceIn animation runs when frontpage loads
+
   @-webkit-keyframes bounceIn {
     from,
     20%,
@@ -253,10 +253,6 @@
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
   }
-
-
-
-
   @keyframes bubbleExpand {
     to {
       -webkit-transform: scale(1.1, 1.05) translateX(20px) translateY(-10px);

@@ -18,6 +18,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import'~bootstrap/dist/css/bootstrap.css'
+@import'~bootstrap/dist/css/bootstrap.css';
 
 </style>

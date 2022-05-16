@@ -86,7 +86,7 @@ export default {
       setTimeout(function() {
         let pagecontent = document.getElementById("page-content");      
           pagecontent.classList.remove("frontpage__leftBarContent");
-          pagecontent.classList.add("animate__flash");
+          pagecontent.classList.add("animate__flash", "popup");
       }, hideDelay)     
     },
 

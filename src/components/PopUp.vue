@@ -4,7 +4,7 @@
 </style>
 
 <template>
-<section id="popup" class="popup__main col-sm-3 col-md-7 col-lg-5">
+<section id="popup" class="popup__main col-sm-3 col-md-6 col-lg-5">
     <div id="fadeIn" class="popup__contentHidden">
 <img src="../assets/Close.svg" class="popup__ctaClose" @click="animateBubbleOut()"/>
 <h2 class="popup__ctaHeading">Explore</h2>
@@ -53,7 +53,7 @@ methods: {
         setTimeout(function() {
         let pagecontent = document.getElementById("page-content");
        
-          pagecontent.classList.remove("animate__flash");
+          pagecontent.classList.remove("animate__flash", "popup");
           pagecontent.classList.add("animate__flashReverse", "frontpage__leftBarContent");
       }, hideDelay)    
 

@@ -234,9 +234,25 @@ font-size: 2.75vh;
           z-index: 10px;
         }
         .frontpage__ctaWrapper{
-          max-width: 300px;
+          width: auto;
           margin-top: 3vh;
           margin-left: 1.21vw;    
+          background-color: #4212056b;
+          padding: 13px 20px 5px 10px; 
+          border-radius: 40px;  
+          height: 55px;   
+        }
+          .frontpage__ctaWrapper p{
+            margin-top: -.7vh;
+            margin-left: 7vw;        
+            }
+            .frontpage__ctaWrapperButton{
+              margin-top: -.6vh;
+              margin-left: -25vw;        
+              }
+        .frontpage__leftBarContentHeading{
+          font-size: 18vw;
+          font-weight: 700;
         }
 }
 @media screen and (max-width: 768px) {
@@ -248,8 +264,8 @@ font-size: 2.75vh;
     height: 55px;   
   }
     .frontpage__ctaWrapper p{
-      margin-top: -1vh;
-      margin-left: 4vw;        
+      margin-top: -.5vh;
+      margin-left: 7vw;        
       }
       .frontpage__ctaWrapperButton{
         margin-top: -.75vh;
@@ -290,8 +306,8 @@ height: 58px;
           overflow: visible;        
         }
         .frontpage__ctaWrapperButton{
-          margin-top: -.5vh;
-          margin-left: -30.5vw;        
+          margin-top: -.7vh;
+          margin-left: -27vw;        
           }
 }
 @media screen and (max-width: 414px) {
@@ -312,6 +328,7 @@ height: 58px;
   }
   .frontpage__ctaWrapperButton{
     border-radius: 50%;
+    margin-top: -.2vh;
     border: none;
     height: 38px;
     width: 38px;
@@ -324,8 +341,8 @@ height: 58px;
           font-size: 20vw;
       }
       .frontpage__ctaWrapper p{
-        font-size: 3.55vh;
-         margin-left: 45px;
+        font-size: 2.75vh;
+         margin-left: 85px;
          margin-top: -5px;
          font-weight: 400;
          
@@ -344,8 +361,42 @@ height: 58px;
   padding: 12px 50px 5px 0px;
   width: 230px;  
   }   
+  .frontpage__ctaWrapper p{
+    font-size: 3.75vh;
+     margin-left: 95px;
+     margin-top: -5px;
+     font-weight: 400;
+     
+    }
 }
+@media screen and (max-width: 280px) {
+  .frontpage__leftBarContentHeading{
+    font-size: 22vw;
+    font-weight: 700;
+  }
+  .animate__flashHeading {
+    font-size: 28vw;
+    font-weight: 700;
+  }
+  .popup__social{
+    margin-top: 20vh;
+    margin-left: 62vw;
+}
+.popup__socialIcon{
+height: 58px;
+}
+.frontpage__ctaWrapperButton{  
+  margin-left: -18vh; 
+  }  
 
+  .frontpage__ctaWrapper p{
+    font-size: 3.75vh;
+     margin-left: 95px;
+     margin-top: -5px;
+     font-weight: 400;
+     
+    }
+}
 @media screen and (min-width: 1920) {
 #frontpage{
   background-image: url("../assets/woodsXLG.png");
